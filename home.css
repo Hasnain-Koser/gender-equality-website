@@ -1,0 +1,121 @@
+.image img {
+    width: 100%;
+    height: 600px;
+}
+
+.image {
+    float: left;
+    overflow: hidden;
+    transition: 1s width;
+}
+
+.slideshow {
+    clear: both;
+}
+
+.left {
+    float: left;
+    margin: 20px;
+    padding: 30px;
+    clear: both;
+    background-color: lightblue;
+    width: 75%;
+}
+
+.right {
+    float: right;
+    margin: 20px;
+    padding: 30px;
+    clear: both;
+    background-color: lightsalmon;
+    width: 75%;
+}
+
+.right img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+
+.left img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+
+.left p {
+    float: right;
+    text-align: left;
+}
+
+.right p {
+    float: left;
+    text-align: left;
+}
+
+.multim {
+    clear: both;
+    display: block;
+}
+
+.section {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+.support {
+    float: left;
+    clear: left;
+    padding: 0.5%;
+    width: 49%;
+    background-color: darksalmon;
+    text-align: center;
+}
+
+.support a {
+    background-color: darkcyan;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    float: right;
+    transition: 1s;
+}
+
+.support a:hover {
+    background-color: steelblue;
+}
+
+.donate {
+    float: right;
+    clear: right;
+    padding: 0.5%;
+    width: 49%;
+    height: 186px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.donate img {
+    float: left;
+    border: 1px solid;
+    width: 500px;
+    height: 125px;
+}
+
+.donate a {
+    margin-top: 65px;
+    background-color: darkgoldenrod;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    float: right;
+    transition: 1s;
+}
+
+.donate a:hover {
+    background-color: goldenrod;
+}

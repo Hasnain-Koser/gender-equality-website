@@ -1,0 +1,33 @@
+.main {
+    clear: both;
+    display: block;
+}
+
+.supports {
+    font-size: larger;
+    float: left;
+    width: 30%;
+    padding: 1.666%;
+    text-align: center;
+    height: 500px;
+}
+
+.supports img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    float: left;
+    margin-left: 75px;
+}
+
+#campaign {
+    background-color: lightcoral;
+}
+
+#helpout {
+    background-color: lightskyblue;
+}
+
+#donate {
+    background-color: lightgreen;
+}
